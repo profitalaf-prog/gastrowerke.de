@@ -13,8 +13,8 @@
 'use strict';
 
 // ── Konfiguration ─────────────────────────────────────────────────
-const SUPABASE_URL = 'DEINE_SUPABASE_URL';         // z.B. https://abcdefgh.supabase.co
-const SUPABASE_ANON_KEY = 'DEIN_SUPABASE_ANON_KEY'; // langer JWT-Token aus dem Dashboard
+const SUPABASE_URL = 'https://ybgcgcfawmtnvuawtylp.supabase.co';         // z.B. https://abcdefgh.supabase.co
+const SUPABASE_ANON_KEY = 'sb_publishable_seayAgm1pkLtxGGnwDkOGA_wOl0Ddqm'; // langer JWT-Token aus dem Dashboard
 
 // Erkennt ob echte Credentials eingetragen sind
 const SUPABASE_CONFIGURED = SUPABASE_URL !== 'DEINE_SUPABASE_URL' && SUPABASE_ANON_KEY !== 'DEIN_SUPABASE_ANON_KEY';
